@@ -1,3 +1,18 @@
+"use client";
+/**
+ * StudyAI Elite — Complete Single-File App
+ *
+ * SETUP:
+ *   Vite:    npm create vite@latest studyai -- --template react
+ *            cd studyai && npm install lucide-react
+ *            Replace src/App.jsx with this file, remove "use client" line
+ *            npm run dev → http://localhost:5173
+ *
+ *   Next.js: npx create-next-app@latest studyai --app
+ *            cd studyai && npm install lucide-react
+ *            Replace app/page.jsx with this file
+ *            npm run dev → http://localhost:3000
+ */
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import {
   BookOpen,Brain,ChevronDown,ChevronRight,ChevronLeft,Flame,GraduationCap,
